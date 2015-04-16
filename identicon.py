@@ -34,6 +34,6 @@ for i in range(5):
     print " "
 
 pygame.display.flip()
-pygame.image.save(screen, "screenshot.jpg")
+pygame.image.save(screen, email+".jpg")
 pygame.quit()
 quit()
